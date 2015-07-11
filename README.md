@@ -1,2 +1,0 @@
-# amandalynnwilliams
-my domain
