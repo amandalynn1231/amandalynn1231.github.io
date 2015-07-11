@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Smartrack Army</title>
+
+		<meta name="keywords" content="UX, user experience, portfolio, amanda williams, responsive, html5, clean layout"/>
+		
+		<link rel="shortcut icon" href="img/paint-icon.jpg"> 
+		
+		<link rel="stylesheet" type="text/css" href="css/reset.css" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="css/style-responsive.css" />				
+		
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="turn.min.js"></script>
+		
+</head>
+
+<body>
+
+	<section class="portfolio-entry">
+		<header>
+           <h1>SMARTRACK ARMY</h1>
+           <h2>product brochure</h2>
+		</header>
+		
+		<main>
+			<div class="t">
+			    <div class="tc rel">
+			        <div class="book" id="book">
+			            <div class="page"><img src="pages/wsa-blue2-01.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-02.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-03.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-04.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-05.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-06.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-07.png" alt="" /></div>
+			            <div class="page"><img src="pages/wsa-blue2-08.png" alt="" /></div>
+			        </div>
+			    </div>
+			</div>
+
+
+	<script type="text/javascript">/*
+		/*
+		 * Turn.js responsive book
+		 */
+
+		/*globals window, document, $*/
+
+		(function () {
+		    'use strict';
+
+		    var module = {
+		        ratio: 1.38,
+		        init: function (id) {
+		            var me = this;
+
+		            // if older browser then don't run javascript
+		            if (document.addEventListener) {
+		                this.el = document.getElementById(id);
+		                this.resize();
+		                this.plugins();
+
+		                // on window resize, update the plugin size
+		                window.addEventListener('resize', function (e) {
+		                    var size = me.resize();
+		                    $(me.el).turn('size', size.width, size.height);
+		                });
+		            }
+		        },
+		        resize: function () {
+		            // reset the width and height to the css defaults
+		            this.el.style.width = '';
+		            this.el.style.height = '';
+
+		            var width = this.el.clientWidth,
+		                height = Math.round(width / this.ratio),
+		                padded = Math.round(document.body.clientHeight * 0.9);
+
+		            // if the height is too big for the window, constrain it
+		            if (height > padded) {
+		                height = padded;
+		                width = Math.round(height * this.ratio);
+		            }
+
+		            // set the width and height matching the aspect ratio
+		            this.el.style.width = width + 'px';
+		            this.el.style.height = height + 'px';
+
+		            return {
+		                width: width,
+		                height: height
+		            };
+		        },
+		        plugins: function () {
+		            // run the plugin
+		            $(this.el).turn({
+		                gradients: true,
+		                acceleration: true
+		            });
+		            // hide the body overflow
+		            document.body.className = 'hide-overflow';
+		        }
+		    };
+
+
+		    module.init('book');
+		}());
+	</script>
+
+	</main>
+
+</section>
+</body>
+</html>
