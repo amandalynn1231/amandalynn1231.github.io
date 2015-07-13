@@ -11,13 +11,9 @@
 /* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
-.menu{
-  display:none;
-}
-
-.menu-media{
+/*.menu{
   display:block;
-}
+}*/
 
 .start-page .content {
   width:300px;
@@ -125,18 +121,6 @@ textarea{
 
 /* iPad (portrait) */
 @media (min-width: 580px) and (max-width: 767px) {
-
-.menu{
-  display:none;
-}
-
-.menu-media{
-  display:block;
-}
-
-.menu-media .menu-content{
-  width:540px;
-}
 
 .partners .logo img {
   padding-bottom:20px;
@@ -255,14 +239,14 @@ textarea{
 @media (min-width: 768px) and (max-width: 1023px) {
 
 
-
+/*
 .menu-content .logo{
   width:200px;
 }
 
 .menu-content{
   width:700px;
-}
+}*/
 
 .about-us .content{
   width:700px;
