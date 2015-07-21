@@ -704,7 +704,6 @@ h1 span{
   background:white;
   z-index:10;
   overflow:hidden;
-  margin-bottom: 150px;  
 }
 
 
@@ -847,10 +846,10 @@ input.submit{
 
 
 .footer{
-  position:fixed;
+  position:relative;
   bottom:0;
   width:100%;
-  background-color: #ECEAEE
+  background-color: #ECEAEE;
   background-size: cover;
 }
 
@@ -862,7 +861,6 @@ input.submit{
   margin-left: auto;
   margin-right: auto;
   padding-top:10px;
-
 }
 
 /*.footer .menu-footer{
@@ -872,7 +870,7 @@ input.submit{
   padding-top:30px;
   overflow: hidden;
   position:relative;  
-}
+} 
 
 
 .footer .menu-footer a{
