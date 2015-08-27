@@ -299,7 +299,6 @@ h1 span{
   width:100%;
   background:#f3f3f3;
   z-index:10;
-
 }
 
 .portfolio .portfolio-margin{
@@ -970,6 +969,62 @@ input.submit{
   border:1px solid #5A6FD8;
 }
 
+/*wandermore*/
+
+.prototype {
+  display: block;
+  float: left;
+}
+
+.prototype .box {
+  width:183px;
+  height:47px;
+  margin:80px auto;
+  margin-bottom: 20px;
+  line-height:47px;
+  border:1px;
+  border-style: solid;
+  border-color: #5A6FD8;
+  text-transform:uppercase;
+  color:#5A6FD8;
+  display:block;
+  cursor:pointer;
+  font-size:14px;
+  letter-spacing:1px;
+  background:none;
+  text-align: center;
+  -webkit-transition: all 0.6s ease-in;
+  -moz-transition: all 0.6s ease-in;
+  -ms-transition: all 0.6s ease-in;
+  -o-transition: all 0.6s ease-in;
+  transition: all 0.6s ease-in; 
+}
+
+.wm-prototype {
+  display: block;
+  float: left;
+}
+
+.description {
+  float: right;
+  width: 40%;
+}
+
+.description p {
+  font-size: 16px;
+}
+
+.click {
+  margin-top: 10px;
+}
+/*.right-arrow {
+    top: 2pt;
+    width: 0.4em;
+    height: 0.4em;
+    border-right: 0.2em solid black;
+    border-top: 0.2em solid black;
+    transform: rotate(270deg);
+}*/
 /* smartrack-army */
 
     /* body {
@@ -981,6 +1036,16 @@ input.submit{
     } */
 
     /* helpers */
+  .pgindicator {
+    width: 0; 
+    height: 0; 
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    
+    border-top: 20px solid #5A6FD8;
+    float: right;
+    margin-right: 2%;
+    }
 
   .t {
         display: table;
@@ -998,6 +1063,9 @@ input.submit{
         position: relative;
     }
 
+.pgturn {
+  letter-spacing: 4px; 
+}
     /* book */
 
     .book {
