@@ -35,7 +35,7 @@
 			<div class="prototype">
 				<div class="box">PROTOTYPE</div>
 
-				<iframe class="wm-prototype" src="https://projects.invisionapp.com/share/SZ3XCVK2N#/screens/95568570" width="438" height="930" frameborder="-" allowfullscreen>
+				<iframe class="wm-prototype" src="https://projects.invisionapp.com/share/SZ3XCVK2N#/screens/95568570" width="418" height="930" frameborder="-" allowfullscreen>
 				</iframe>
 			</div>
 
@@ -54,5 +54,31 @@
 		</main>
 
 	</section>
+
+	<!-- Scripts -->
+	
+	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+	<script src="js/jquery-ui-1.10.4.min.js" type="text/javascript"></script> <!-- jQuery -->
+	<script src="js/jquery.nicescroll.js"></script> <!-- jQuery NiceScroll -->
+	<script src="js/jquery.sticky.js"></script> <!-- jQuery Stick Menu -->
+	<script src="js/masonry.pkgd.min.js"></script> <!-- All script -->
+	<script src="js/imagesloaded.pkgd.min.js"></script> <!-- All script -->	
+
+   <script>
+     $(function(){
+   
+       var $container = $('.grid');
+     
+       $container.imagesLoaded( function(){
+         $container.masonry({
+           itemSelector : 'li'
+         });
+       });
+     
+     });
+   </script>
+	<script src="js/jquery.parallax.js"></script> <!-- jQuery Parallax -->	
+	<script src="js/script.js"></script> <!-- All script -->	
+
 </body>
 </html>

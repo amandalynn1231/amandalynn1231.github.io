@@ -1001,8 +1001,7 @@ input.submit{
 }
 
 .wm-prototype {
-  display: block;
-  float: left;
+  margin: auto;
 }
 
 .description {
@@ -1017,6 +1016,8 @@ input.submit{
 .click {
   margin-top: 10px;
 }
+
+
 /*.right-arrow {
     top: 2pt;
     width: 0.4em;
@@ -1109,6 +1110,7 @@ input.submit{
   margin-right: auto;
   margin-left: auto;
   padding-bottom: 20px;
+  width: 100%;
 }
 
 /* resume */
@@ -1130,5 +1132,37 @@ input.submit{
   margin-right: auto;
   width: 80%;
   padding-top: 50px;
+
+}
+
+@media (min-width: 320px) and (max-width: 579px) {
+
+.portfolio-entry h1 {
+  font-size: 50px;
+}
+
+.portfolio-entry h2 {
+  font-size: 26px;
+}
+
+.portfolio-entry h3 {
+  font-size: 20px;
+}
+
+.portfolio-entry p {
+  font-size: 16px;
+}
+
+.prototype {
+  float: left;
+}
+
+.wm-prototype {
+  margin: auto;
+}
+
+.description {
+  margin: auto;
+}
 
 }
