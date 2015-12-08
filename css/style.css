@@ -896,6 +896,14 @@ input.submit{
   background-color: #ffffff;
 }
 
+.portfolio-entry header {
+  width: 100%;
+}
+
+.home_btn {
+  float: right;
+}
+
 .portfolio-entry main {
   background-color: #ffffff;
   padding-top: 30px;
@@ -969,6 +977,14 @@ input.submit{
   border:1px solid #5A6FD8;
 }
 
+.lower-div img {
+  max-width: 600px;
+  float: left;
+  padding-right: 30px;
+}
+
+
+
 /*wandermore*/
 
 .lower-div {
@@ -1018,7 +1034,7 @@ iframe {
 
 .description {
   float: left;
-  width: 30%;
+  width: 35%;
   min-width: 350px;
   padding-right: 40px;
 }
@@ -1028,7 +1044,13 @@ iframe {
   text-align: center;
   width: 100%;
 }
+.description a{
+  color: #000000;
+}
 
+.description a:hover {
+  font-weight: 400;
+}
 .click {
   margin-top: 10px;
 }
@@ -1040,7 +1062,29 @@ iframe {
     border-right: 0.2em solid black;
     border-top: 0.2em solid black;
     transform: rotate(270deg);
-}*/
+}*
+
+/*jomi*/
+
+.jomi_description {
+  width: 40%;
+  min-width: 350px;
+  float: left;
+}
+
+.jomi_description p {
+  font-size: 16px;
+  text-align: center;
+  width: 100%;
+}
+.jomi_description a{
+  color: #000000;
+}
+
+.jomi_description a:hover {
+  font-weight: 400;
+}
+
 /* smartrack-army */
 .margin {
   margin-left: 30px;
@@ -1452,7 +1496,6 @@ iframe {
   margin-left: auto;
   width: 100%;
 }
-
 
 .description {
   float: none;
