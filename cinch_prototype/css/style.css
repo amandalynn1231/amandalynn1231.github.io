@@ -21,7 +21,7 @@ body {
   font-size: 16px;
   line-height: 1.4em;
   margin: 0;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
 } 
 
@@ -30,6 +30,7 @@ h1.title {
   text-transform:capitalize;
   letter-spacing: 2px;
   line-height: 50px;
+  /*color: #7d2854;*/
 }
 
 .text {
@@ -37,6 +38,8 @@ h1.title {
   padding-left: 20px;
   padding-right: 20px;
   line-height: 36px;
+  font-size: 16px;
+  color: #646470;
  }
 
 
@@ -46,13 +49,14 @@ h1.title {
 
 .logo img {
   /*make this shit small yo*/
-  margin: 5%;
-  max-height: 150px;
+  margin: 2%;
+  height: 16vw;
+  max-height: 100px;
 }
 
 .nav { 
   background-color: #646470;
-  height: 40px;
+  height: 2px;
   width: 100%;
 }
  .triangle {
@@ -67,7 +71,7 @@ h1.title {
 }
 
 main {
-  background-color: #2d3444;
+  background-color: #ffffff;
   padding-left: 10%;
   padding-right: 10%;
   padding-bottom: 15px;
@@ -87,8 +91,10 @@ main {
   text-transform: capitalize;
   margin-left: auto;
   margin-right: auto;
-  width: 10em;
-  line-height: 40px; 
+ /* width: 10em;*/
+  line-height: 30px;
+  font-size: 30px; 
+  color: #646470;
 }
 
 .cinch-dude {
@@ -98,9 +104,8 @@ main {
 }
 
 .cinch-dude img {
-
-  min-width: 35%;
-  max-width: 123px;
+  width: 20%;
+  min-width: 100px;
 }
 
 .mid-panel {
@@ -252,11 +257,11 @@ If necessary, individual page styles go here
 
 
 
-.light-panel {
+/*.light-panel {
   background-color: #e9dede;
   padding-top: 20px;
   padding-bottom: 20px;
-}
+}*/
 
 .light-panel h1 {
   color: #7d2854;
@@ -358,4 +363,14 @@ button.not-listed:hover {
 
 .dark-footer {
   color: #2d3444;
+}
+
+@media (min-width: 320px) and (max-width: 866px) {
+  .button-header h2 {
+  font-size: 18px;
+  }
+
+  .button-header h3 {
+    font-size: 14px;
+  }
 }
