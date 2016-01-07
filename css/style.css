@@ -51,7 +51,6 @@ p{
   color:white;
   font-weight:300;
   letter-spacing:1px;
-  margin-top:40px;
 }
 
 
@@ -937,14 +936,23 @@ input.submit{
   padding-top: 20px;
 }
 
+.portfolio-entry h4 {
+    font-size: 24px;
+    color: #5A6FD8;
+    text-align: lef;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    letter-spacing: 6px;
+}
 .portfolio-entry p {
-  font-size: 24px;
+  font-size: 18px;
   color: #5A6FD8;
   padding-left: 10px;
   letter-spacing: 4px;
   text-align: center;
   padding-bottom: 10px;
   line-height: 32px;
+  margin-top: 10px;
 }
 
 .portfolio-entry .read-more {
@@ -976,6 +984,39 @@ input.submit{
   border: 1px solid #5A6FD8;
 }
 
+.case_study_text {
+    margin: 10vw 15vw 10vw 15vw;
+}
+
+.case_study_text p {
+    text-align: left;
+    font-size: 16px;
+}
+
+.cinch_media {
+  margin: 0vw 15vw 15vw 15vw;
+}
+
+.cinch_media h4 {
+  margin-bottom: 4vw;
+}
+
+.cinch_media img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
+  margin-bottom: 8vw;
+}
+
+
+.cinch_wireframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
 .lower-div {
   position: relative;
   width: 100%;
@@ -996,12 +1037,20 @@ input.submit{
   text-align: center;
   width: 100%;
 }
-.description a{
-  color: #000000;
+.link {
+  font-size: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.description a {
+  font-size: 16px;
 }
 
 .description a:hover {
-  font-weight: 400;
+  text-decoration: underline;
 }
 
 /*.lower-div img {
@@ -1010,6 +1059,25 @@ input.submit{
   padding-right: 30px;
 }*/
 
+/*.container {
+  background-image: url('../images/portfolio/minimock/png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 800px;
+  position: relative;
+}
+
+.screen, iframe {
+  position: absolute;
+  width: 204px;
+  height: 346px;
+  top: 78px;
+  left: 250px;
+  background: #fff;
+  border: 2px #1D1F20 solid;
+  z-index: 500;
+  padding: 5px;
+}*/
 
 /*jomi*/
 
@@ -1123,6 +1191,7 @@ input#img-5:checked ~ .nav-dots label#img-dot-5,
 input#img-6:checked ~ .nav-dots label#img-dot-6 {
   background: rgba(0, 0, 0, 0.8);
 }
+
 
 /*wandermore*/
 
@@ -1276,21 +1345,28 @@ iframe {
 
 /* cinch */
 
-.cinch-mock {
-  width: 100%;
+.cinch_mobile {
   display: block;
-  margin-right: auto;
-  margin-left: auto;
+   margin-left: auto;
+   margin-right: auto;
+   width: 40%;
 }
 
-/* nopa */
-.portfolio-entry img {
+/*.cinch-mock {
+  width: 100%;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 20px;
-  width: 100%;
+}*/
+
+/* nopa */
+.nopa {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
 }
+
 
 /* resume */
 
