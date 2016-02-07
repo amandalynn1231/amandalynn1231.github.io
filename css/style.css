@@ -1197,7 +1197,8 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
 
 .prototype {
   display: block;
-  float: left;
+  margin-right: auto;
+  margin-left: auto;
   background-color: #ffffff;
   width: 55%;
 }
@@ -1206,8 +1207,7 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   width:183px;
   height:47px;
   margin-top:40px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: none;
   line-height:47px;
   border:1px;
   border-style: solid;
@@ -1227,12 +1227,18 @@ input#img-6:checked ~ .nav-dots label#img-dot-6 {
   transition: all 0.6s ease-in;
 }
 
+.box {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 iframe {
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 10px;
-  margin-top: none;
+  padding-left: 2vw;
+  margin-top: 2vw;
 }
 
 .click {
@@ -1266,6 +1272,21 @@ iframe {
 .jomi_description a:hover {
   font-weight: 400;
 }*/
+
+.screens {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+  margin-top: 5vw;
+}
+
+.wander-mock {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 90%;
+}
 
 .part2 {
   padding-top: 10px;
