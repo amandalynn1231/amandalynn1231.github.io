@@ -9,7 +9,7 @@
 	width: 90vw;
 	margin-right: 5vw;
 	margin-left: 5vw;
-	margin-bottom: 30vw;
+	margin-bottom: 5vw;
 }
 /*.feature-container {
 	width: 100vw;
@@ -46,11 +46,11 @@
 
 .img-container {
 	/*position: absolute;*/
-	width: 100vw;
+	/*width: 100vw;*/
   /*top: 120vw;*/
 	/*padding-left: 5vw;*/
-  padding-top: 8vw;
-	height: 30vw;
+  /*padding-top: 8vw;*/
+	/*height: 30vw;*/
 	/*background-color: #5B70D8;*/
 }
 
